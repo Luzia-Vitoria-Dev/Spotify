@@ -11,3 +11,6 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
+    environment:
+      - WATCHPACK_POLLING=true
+      - NEXT_TELEMETRY_DISABLED=1
