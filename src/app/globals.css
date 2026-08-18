@@ -4,6 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* Ajusta e configura a variável de fonte */
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  /* ... */
   /* Registro no Tailwind CSS */
   --color-spotify-green: var(--spotify-green);
   --color-spotify-base: var(--spotify-base);
