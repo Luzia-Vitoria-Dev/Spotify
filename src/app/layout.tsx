@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   description:
     "Spotify é um serviço de música digital que dá acesso a milhões de músicas, podcasts e vídeos de artistas do mundo todo.",
   generator: "v0.app",
+  icons: {
+    icon: [{ url: "/brand/spotify.svg", type: "image/svg+xml" }],
+    shortcut: "/brand/spotify.svg",
+    apple: "/brand/spotify.svg",
+  },
 };
 
 /* Metadados de Viewport (Aparência do Navegador) */
